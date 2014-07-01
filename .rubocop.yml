@@ -1,0 +1,9 @@
+Style/Documentation:
+  Enabled: false
+
+AllCops:
+  Include:
+    - **/Rakefile
+  Exclude:
+    - db/**/*
+    - script/**/*
